@@ -1,10 +1,11 @@
-<script setup>
-import Hello from './views/HelloView.vue'
-</script>
-
 <template>
-  <header>
-    <Hello />
-  </header>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
+<script>
+export default {
+  name: 'App'
+}
+</script>
