@@ -4,7 +4,8 @@
         <div class="d-flex justify-content-center gap-4">
             <router-link to="/greeting" class="btn btn-primary btn-lg shadow">Greeting</router-link>
             <router-link to="/dictionary" class="btn btn-success btn-lg shadow">Dictionary</router-link>
-            <router-link to="/calculator" class="btn btn-warning btn-lg shadow">Calculator</router-link>
+            <router-link to="/calculate" class="btn btn-warning btn-lg shadow">Calculator</router-link>
+             <router-link to="/employee" class="btn btn-warning btn-lg shadow">Management Employee</router-link>
         </div>
     </div>
 </template>
@@ -16,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-/* CSS tùy chỉnh */
+
 h1 {
     font-family: 'Arial', sans-serif;
     font-weight: bold;

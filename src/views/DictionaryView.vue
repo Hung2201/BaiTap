@@ -23,7 +23,7 @@ export default {
         return {
             keyword: "",
             result: null,
-            searched: false, 
+            searched: false,
         };
     },
     methods: {
